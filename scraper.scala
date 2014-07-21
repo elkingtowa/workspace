@@ -13,7 +13,6 @@ object MonadShit {
   object Result { def apply[T](x: T): Result[T] = Good(x) }
 
   // mapM from Haskell, for the Result monad
-  // hackage.haskell.org/package/base-4.7.0.0/docs/Prelude.html#v:mapM
   def combineWith[T,U](f: T => Result[U])
                       (left: Result[List[U]], right:T): Result[List[U]] =
     left match {
