@@ -1,5 +1,3 @@
-Credit to Andrea Mostosi
-
 Big Data Frameworks
 
 Apache Hadoop	
@@ -958,3 +956,5 @@ RocksDB is an embeddable persistent key-value store for fast storage. RocksDB ca
 
 1. RocksDB site
 Published with Amazon S3
+
+Credit to Andrea Mostosi
